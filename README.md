@@ -21,7 +21,7 @@ Welcome to shopHere, a comprehensive e-commerce application built using the MERN
 
 ## Technologies Used
 - **Frontend:**
-  - React.js
+  - React.js(using Material UI)
   - Redux (State management)
 
 - **Backend:**
