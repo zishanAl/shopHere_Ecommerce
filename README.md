@@ -107,9 +107,6 @@ We welcome contributions from the community! To contribute:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ---
 
 Thank you for using shopHere! If you have any questions or feedback, please open an issue or contact us.
