@@ -198,39 +198,3 @@ const Product = () => {
 
 export default Product;
 
-// ----------------------------------
-// implement this code in removing from the store
-/*
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { addProduct, removeProduct } from './path/to/cartSlice';
-
-const ProductComponent = ({ product }) => {
-  const dispatch = useDispatch();
-  const cart = useSelector(state => state.cart);
-
-  const handleAdd = () => {
-    dispatch(addProduct({ ...product, quantity: 1 }));
-  };
-
-  const handleRemove = () => {
-    dispatch(removeProduct({ id: product.id, price: product.price, quantity: 1 }));
-  };
-
-  return (
-    <div>
-      <h2>{product.name}</h2>
-      <button onClick={handleAdd}>Add to Cart</button>
-      <button onClick={handleRemove}>Remove from Cart</button>
-      <div>Cart Quantity: {cart.quantity}</div>
-      <div>Cart Total: {cart.total}</div>
-    </div>
-  );
-};
-
-export default ProductComponent;
-
-
-
-
-*/
