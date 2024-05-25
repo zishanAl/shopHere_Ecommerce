@@ -9,7 +9,6 @@ Welcome to shopHere, a comprehensive e-commerce application built using the MERN
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - User Authentication (Sign Up, Sign In, Sign Out)
