@@ -93,5 +93,4 @@ const ProductList = () => {
     </Container>
   );
 };
-// listing product category wise
 export default ProductList;
