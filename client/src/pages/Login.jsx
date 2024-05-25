@@ -103,5 +103,4 @@ const Login = () => {
     </Container>
   );
 };
-// update the link features -- forgot password and create and account
 export default Login;
