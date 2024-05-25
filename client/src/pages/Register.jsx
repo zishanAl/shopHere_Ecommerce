@@ -112,5 +112,4 @@ const Register = () => {
     </Container>
   );
 };
-// good till now
 export default Register;
