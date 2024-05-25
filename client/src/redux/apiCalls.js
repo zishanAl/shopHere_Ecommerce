@@ -11,12 +11,9 @@ export const login = async (dispatch, user) => {
   }
 };
 
-// add a logout function
 export const logout = (dispatch) => {
   dispatch(logoutStart());
 };
-
-// register function
 
 export const register = async (dispatch, user) => {
   dispatch(loginStart());
