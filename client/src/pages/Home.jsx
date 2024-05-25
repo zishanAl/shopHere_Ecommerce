@@ -20,5 +20,4 @@ const Home = () => {
     </div>
   );
 };
-// ye thk h
 export default Home;
