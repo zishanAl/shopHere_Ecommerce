@@ -12,8 +12,8 @@ import { userRequest } from "../requestMethods";
 import { useHistory } from "react-router";
 import { removeProduct } from "../redux/cartRedux";
 import { useDispatch } from "react-redux";
-
-const KEY = "pk_test_51OQMo1SCAwTCNSDP2hmLtnfkvqYzHoHxCqj08z7c7p5uwEF3TDhfyiDYumecYlKQa3TBMuFtHJYMVqHwTeJi9KZN00952jttAi";
+// write your personal key
+const KEY = "pk_test_51OQMdhdhhsggsgsfaqYzHoHxCqj08z7c7p5uwEF3TDhfyiDYumecjghyrtsreJi9KZN00952jttAi";
 
 const Container = styled.div``;
 
@@ -222,8 +222,6 @@ const Cart = () => {
                     <ProductColor color={product.color} />
                     
                     <Button onClick={() => handleRemoveClick(product.id)}>Remove</Button>
-                    {/* <div>Total Quantity: {cart.quantity}</div>
-                    <div>Total Price: {cart.total }</div> */}
                   </Details>
                 </ProductDetail>
                 <PriceDetail>
@@ -259,7 +257,7 @@ const Cart = () => {
               <SummaryItemPrice>$ {cart.total.toFixed(3)}</SummaryItemPrice>
             </SummaryItem>
             <StripeCheckout
-              name="Zishan Shop"
+              name="ABCD Shop"
               image="https://avatars.githubusercontent.com/u/1486366?v=4"
               billingAddress
               shippingAddress
@@ -277,5 +275,4 @@ const Cart = () => {
     </Container>
   );
 };
-// activate the buttons and other functions
 export default Cart;
