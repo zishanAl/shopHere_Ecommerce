@@ -69,5 +69,4 @@ const Products = ({ cat, filters, sort }) => {
 
   );
 };
-// this is for product sections
 export default Products;
