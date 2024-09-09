@@ -13,7 +13,7 @@ import { useHistory } from "react-router";
 import { removeProduct } from "../redux/cartRedux";
 import { useDispatch } from "react-redux";
 // write your personal key
-const KEY = "pk_test_51OQMdhdhhsggsgsfaqYzHoHxCqj08z7c7p5uwEF3TDhfyiDYumecjghyrtsreJi9KZN00952jttAi";
+const KEY = "write yours";
 
 const Container = styled.div``;
 
